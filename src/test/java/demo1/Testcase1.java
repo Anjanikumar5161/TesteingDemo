@@ -20,7 +20,9 @@ public class Testcase1 {
 		driver.get("https://in.dev.vibhohcm.com/");
 		
 		driver.findElement(By.id("username")).sendKeys("dev");
-		driver.findElement(By.id("password")).sendKeys("root");
+		driver.findElement(By.id("password")).sendKeys("root123");
 		driver.findElement(By.className("login-signin")).click();
+		
+		
 	}
 }
